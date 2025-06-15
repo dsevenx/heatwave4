@@ -1,0 +1,32 @@
+import React from 'react'
+import {navLinks} from '../constants';
+
+const Nav = () => {
+  return (
+    <header className="ps-2 py-8 z-10 w-full">
+      <nav className="flex justify-between items-center max-container">
+        <a href="/" >
+        <img 
+          src="/images/header-logo.svg"
+          alt="Heatwave Logo"
+          className="h-10 w-auto"
+        />
+        </a>
+        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+          {navLinks.map((item) => (
+            <li key={item.label}>
+              <a
+                href={item.href}
+                className="fonts-montserrat leading-normal text-lg text-slate-gray"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  )
+}
+
+export default Nav

@@ -5,8 +5,12 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Next.js TypeScript Tailwind Starter',
-  description: 'A modern starter template with Next.js, TypeScript, and Tailwind CSS',
+  title: 'Heatwave',
+  description: 'A modern Heatwave-Shop with Next.js, TypeScript, and Tailwind CSS',
+  icons: {
+    icon: '/favicon.ico',
+   },
+  
 }
 
 export default function RootLayout({
