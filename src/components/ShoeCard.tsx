@@ -19,8 +19,8 @@ const ShoeCard = ({ thumbnail, changeBigShoeImage,bigShowImageShoe, bigShowImage
     return (
         <div
             className={`border-2 rounded-xl 
-                ${bigShowImageShoe === bigShowImageAnzeige ? 'border-black' : 'border-transparent'}
-                cursor-pointer hover:border-coral-red transition-colors duration-300 p-2 m-2
+                ${bigShowImageShoe === bigShowImageAnzeige ? 'border-gray-400' : 'border-transparent'}
+                cursor-pointer hover:border-black transition-colors duration-300 p-2 m-2
             `}
             onClick={handleClick}
         >
@@ -30,7 +30,7 @@ const ShoeCard = ({ thumbnail, changeBigShoeImage,bigShowImageShoe, bigShowImage
                     alt={thumbnail}
                     width={127}
                     height={103}
-                    className="object-contain"
+                    className="object-fill w-[127px] h-[103px] rounded-xl"
                 />       
              </div>
         </div>
