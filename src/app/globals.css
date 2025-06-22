@@ -61,4 +61,8 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+  .hover-for-footer {
+    @apply text-white-400 hover:text-white transition-colors duration-300;
+  }
 }
