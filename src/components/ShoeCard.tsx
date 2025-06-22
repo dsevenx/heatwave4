@@ -1,13 +1,7 @@
 "use client";
 
+import { Shoe } from '@/constants/EigeneTypes';
 import React from 'react'
-
-type Shoe = {
-    thumbnail: string;
-    changeBigShoeImage: (image: string) => void;
-    bigShowImageShoe: string;
-    bigShowImageAnzeige: string;
-};
 
 const ShoeCard = ({ thumbnail, changeBigShoeImage,bigShowImageShoe, bigShowImageAnzeige }: Shoe) => {
 

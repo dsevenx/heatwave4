@@ -1,11 +1,5 @@
+import { Product4Card } from '@/constants/EigeneTypes';
 import React from 'react'
-
-type Product4Card = {
-    imgURL: string,
-    name: string,
-    price: string,
-
-};
 
 type PoppularProductCardProps = {
     product: Product4Card;

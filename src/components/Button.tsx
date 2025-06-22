@@ -11,8 +11,10 @@ const Button: React.FC<ButtonProps> = ({ label, iconUrl }) => {
     border font-montserrat rounded-full bg-black text-white
     hover:bg-white hover:text-black transition-colors duration-300">
       {label}
+      {iconUrl &&
       <img src={iconUrl} alt="Button Icon" className="ml-2 rounded-full w-5 h-5" />
-    </button>
+    }   
+      </button>
   )
 }
 
