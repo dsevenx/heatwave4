@@ -43,7 +43,7 @@ const Hero = () => {
         />
 
 
-        <div className="flex gap-10 absolute bottom-0 translate-y-[50px] sm:translate-y-[150px] max-sm:translate-y-[150px] xl:translate-y-[50px]">
+        <div className="flex gap-10 absolute bottom-0 translate-y-[50px] sm:translate-y-[150px] max-sm:translate-y-[100px] xl:translate-y-[50px]">
 
           {shoes.map((shoe) => (
             <div key={shoe.bigShoe} className="">
