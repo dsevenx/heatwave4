@@ -4,7 +4,7 @@ export type Service4Card = {
     label: string;
     subtext: string;
 
-};export type Shoe = {
+}; export type Shoe = {
     thumbnail: string;
     changeBigShoeImage: (image: string) => void;
     bigShowImageShoe: string;
@@ -16,4 +16,12 @@ export type Product4Card = {
     price: string;
 
 };
+
+export type Review4Card = {
+    imgURL: string,
+    customerName: string,
+    rating: number,
+    feedback: string
+};
+
 
