@@ -11,7 +11,7 @@ const Nav = () => {
         <img 
           src="/images/heatwave.png"
           alt="Heatwave Logo"
-          className="h-10 w-auto"
+          className="h-16 hover:scale-125 transition-transform duration-300"
         />
       
         </a>

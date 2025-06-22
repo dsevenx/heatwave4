@@ -4,7 +4,7 @@ import React from 'react'
 const Subscribe = () => {
   return (
     <section className='max-container flex justfiy-between items-center max-lg:flex-col
-    gap-19 id="Subscribe"'>
+    gap-19' id="contact-us">
       <h3 className='text-4xl font-palanquin leading-[68px]'>Sign Up for <span className='text-coral-red'>Updates</span>
       {" "} & Newsletter
       </h3>

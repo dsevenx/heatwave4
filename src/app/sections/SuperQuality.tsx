@@ -3,7 +3,7 @@ import React from 'react'
 
 const SuperQuality = () => {
   return (
-    <section id="SuperQuality" className="w-full flex justify-between items-center
+    <section id="about-us" className="w-full flex justify-between items-center
      max-lg:flex-col gap-10 max-container">
 
       <div className='flex flex-1 flex-col'>
